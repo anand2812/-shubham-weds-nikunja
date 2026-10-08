@@ -1,0 +1,40 @@
+{
+  "name": "shubham-weds-nikunja",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "server": "node server.js",
+    "start": "node server.js",
+    "build": "vite build",
+    "lint": "eslint . --max-warnings=0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "framer-motion": "12.6.3",
+    "lucide-react": "0.468.0",
+    "motion-dom": "12.6.3",
+    "motion-utils": "12.6.3",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "vite": "6.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.18.0",
+    "@types/react": "19.0.8",
+    "@types/react-dom": "19.0.3",
+    "autoprefixer": "10.4.20",
+    "eslint": "9.18.0",
+    "eslint-plugin-react-hooks": "5.1.0",
+    "eslint-plugin-react-refresh": "0.4.18",
+    "postcss": "8.5.1",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.7.2",
+    "typescript-eslint": "8.20.0"
+  }
+}
